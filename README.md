@@ -13,3 +13,7 @@ We have created three Graphical User Inteface (GUI) which are Login GUI, Admin G
 We have used components from Swing and AWT Libraries to design the GUI.
 
 ###Login GUI
+![loginGUI](https://user-images.githubusercontent.com/107078925/173621876-15a31249-4079-4f12-8963-7b8aac0baca9.jpg)
+Login GUI is the first GUI that user will be seeing when he/she runs the application. If the user is an employee, he/she can proceed to check the salary slip provided administrator has updated their salary. If the user is an administrator, he/she shall enter the username and password. If you want to change the password and user, you will need to change it at LoginGUI.java at following lines:
+
+'if (stradmin.equals("admin") && strpass.equals("admin")) {'
