@@ -16,4 +16,33 @@ We have used components from Swing and AWT Libraries to design the GUI.
 ![loginGUI](https://user-images.githubusercontent.com/107078925/173621876-15a31249-4079-4f12-8963-7b8aac0baca9.jpg)
 Login GUI is the first GUI that user will be seeing when he/she runs the application. If the user is an employee, he/she can proceed to check the salary slip provided administrator has updated their salary. If the user is an administrator, he/she shall enter the username and password. If you want to change the password and user, you will need to change it at LoginGUI.java at following lines:
 
-'if (stradmin.equals("admin") && strpass.equals("admin")) {'
+`if (stradmin.equals("admin") && strpass.equals("admin")) {`
+'admin' is the username and password in our employee payroll management system
+
+###Admin GUI
+//Admin GUI picture
+
+Admin GUI consists of the following features:
+-Add New Employees
+-Display Employee Information
+-Salary Calculation based on Days and Rate Per Day
+
+###Salary Slip GUI
+//Salary picture
+
+This GUI is used to display Salary to employee after user key in his/her ID in the Login GUI. It has the 'print' button that allow user to print the salary slip to PDF.
+
+Database
+All the functions that used to manipulate data in the database are defined in Database.java, change the username and password in the source code to your database's username and password.
+`this.connect_db = DriverManager.getConnection(url, "root", "password");`
+
+###Requirements
+In order to run this application, you will need to install MySQL and its workbench to create a database to store employees' information. You can use other method to create the database and table, but MySQL workbench is the most convienient to do so. Following picture shows the column name in the employee table.
+
+//picture database
+
+##Requirements
+-Bryan Keane
+-Lim Zhi Min
+-Ahmed Rafat
+-Kong Ping Hao
