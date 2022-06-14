@@ -5,4 +5,4 @@ Our Payroll Managament System able to generate Salary Slip to the employess whil
 
 We have created three Graphical User Inteface (GUI) which are Login GUI, Admin GUI, and Salary Slip GUI. The snapshot of each GUI will be shown in System Design.
 
-![EPMS_Flowchart](EPMS_Flowchart.jpg)
+![EPMS_Flowchart]()
