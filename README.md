@@ -6,13 +6,13 @@ Our Payroll Managament System able to generate Salary Slip to the employess whil
 We have created three Graphical User Inteface (GUI) which are Login GUI, Admin GUI, and Salary Slip GUI. The snapshot of each GUI will be shown in System Design.
 
 ## System Design
-
 ### Flowchart
 ![EPMS_Flowchart](https://user-images.githubusercontent.com/107078925/173619642-5d0cb751-62ce-4650-82d5-6153cd7ccc31.jpg)
 
+### GUI's
 We have used components from Swing and AWT Libraries to design the GUI.
 
-### Login GUI
+#### 1. Login GUI
 ![loginGUI](https://user-images.githubusercontent.com/107078925/173621876-15a31249-4079-4f12-8963-7b8aac0baca9.jpg)
 
 Login GUI is the first GUI that user will be seeing when he/she runs the application. If the user is an employee, he/she can proceed to check the salary slip provided administrator has updated their salary. If the user is an administrator, he/she shall enter the username and password. If you want to change the password and user, you will need to change it at LoginGUI.java at following lines:
@@ -21,7 +21,7 @@ Login GUI is the first GUI that user will be seeing when he/she runs the applica
 
 'admin' is the username and password in our employee payroll management system
 
-### Admin GUI
+#### 2. Admin GUI
 ![Admin_GUI](https://user-images.githubusercontent.com/107078925/173625287-9f1493db-551e-4eb2-968e-841a06ed5751.jpg)
 
 Admin GUI consists of the following features:
@@ -29,7 +29,7 @@ Admin GUI consists of the following features:
 - Display Employee Information
 - Salary Calculation based on Days and Rate Per Day
 
-### Salary Slip GUI
+#### 3. Salary Slip GUI
 ![Salary Slip GUI](https://user-images.githubusercontent.com/107078925/173625323-59b84938-32c0-4e66-bcf9-12ba8b7e25a8.jpg)
 
 This GUI is used to display Salary to employee after user key in his/her ID in the Login GUI. It has the 'print' button that allow user to print the salary slip to PDF.
