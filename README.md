@@ -36,6 +36,7 @@ This GUI is used to display Salary to employee after user key in his/her ID in t
 
 ### Database
 All the functions that used to manipulate data in the database are defined in Database.java, change the username and password in the source code to your database's username and password.
+
 `this.connect_db = DriverManager.getConnection(url, "root", "password");`
 
 ### Requirements
@@ -43,7 +44,7 @@ In order to run this application, you will need to install MySQL and its workben
 
 ![column_name](https://user-images.githubusercontent.com/107078925/173625358-01df2941-6d8a-40d4-b436-5898c797b375.png)
 
-## Requirements
+## :clap: Project Members
 - Bryan Keane
 - Lim Zhi Min
 - Ahmed Rafat
